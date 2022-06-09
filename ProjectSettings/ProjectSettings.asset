@@ -12,7 +12,7 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
+  companyName: Chase Interactive Visuals LLC
   productName: CIV Vuforia Demo Project
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
@@ -820,7 +820,7 @@ PlayerSettings:
   scriptingDefineSymbols:
     Android: VUFORIA_ANDROID_SETTINGS
     Windows Store Apps: VUFORIA_WSA_SETTINGS
-    iPhone: VUFORIA_IOS_SETTINGS;UNITY_XR_ARKIT_LOADER_ENABLED
+    iPhone: VUFORIA_IOS_SETTINGS;UNITY_XR_ARKIT_LOADER_ENABLED;PHOTOS_API_ENABLED
   additionalCompilerArguments: {}
   platformArchitecture:
     iPhone: 1
@@ -900,6 +900,7 @@ PlayerSettings:
   metroSplashScreenUseBackgroundColor: 1
   platformCapabilities:
     WindowsStoreApps:
+      CodeGeneration: False
       OfflineMapsManagement: False
       HumanInterfaceDevice: False
       Location: False
@@ -912,7 +913,6 @@ PlayerSettings:
       InternetClientServer: False
       VideosLibrary: False
       Objects3D: False
-      InternetClient: True
       RemoteSystem: False
       BlockedChatMessages: False
       PhoneCall: False
@@ -934,7 +934,7 @@ PlayerSettings:
       RecordedCallsFolder: False
       Contacts: False
       Proximity: False
-      CodeGeneration: False
+      InternetClient: True
       BackgroundMediaPlayback: False
       EnterpriseAuthentication: False
   metroTargetDeviceFamilies:
